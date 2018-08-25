@@ -1,3 +1,12 @@
+qtwebengine-opensource-src (5.10.1+dfsg-4ubports2) xenial; urgency=medium
+
+  * debian/control:
+    Depend on the same version of QtWebChannel: while this dependency is not
+    strictly required, the CMake configuration files shipped with
+    qtwebengine5-dev do require the same version of QtWebChannel.
+
+ -- Alberto Mardegan <mardy@users.sourceforge.net>  Sat, 25 Aug 2018 14:20:04 +0300
+
 qtwebengine-opensource-src (5.10.1+dfsg-4ubports1) xenial; urgency=medium
 
   * Add mir patch

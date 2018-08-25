@@ -89,7 +89,7 @@ Package: qtwebengine5-dev
 Architecture: any
 Multi-Arch: same
 Section: libdevel
-Depends: libqt5webchannel5-dev,
+Depends: libqt5webchannel5-dev (= ${source:Upstream-Version}),
          libqt5webengine5 (= ${binary:Version}),
          libqt5webenginecore5 (= ${binary:Version}),
          libqt5webenginewidgets5 (= ${binary:Version}),
